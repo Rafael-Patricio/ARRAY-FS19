@@ -13,4 +13,13 @@ let pessoas = [
     'Juan bEnJamin',
     'MAteuS ArANHA'
 ]
-pessoas.forEach(item => console.log(item.toUpperCase()))
+// 3.1 - Map com arrouw function
+//pessoas.map((item) => console.log(item.toUpperCase()))
+
+//3.2 - forEach sem arrow function
+/* pessoas.forEach(function(item) {
+    return console.log(item.toUpperCase())
+})*/
+
+// 4 - Alterar todos os elementos para maiúsculo com forEach com Arrow Function
+//pessoas.forEach(item => console.log(item.toUpperCase()))
