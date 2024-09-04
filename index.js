@@ -5,6 +5,12 @@ let listaEstrelas = [{nome: 'Angelo', idade: 12}, 'Betegeuase', 'Sirius', 'Anila
 
 // 2 - Alterar o último elemento para maiúsculo
 
-console.log(listaJogos[2].toUpperCase())
+//console.log(listaJogos[2].toUpperCase())
 
 // 3 - Alterar todos os elementos para maiúsculo
+let pessoas = [
+    'AnGELO lustosa',
+    'Juan bEnJamin',
+    'MAteuS ArANHA'
+]
+pessoas.forEach(item => console.log(item.toUpperCase()))
